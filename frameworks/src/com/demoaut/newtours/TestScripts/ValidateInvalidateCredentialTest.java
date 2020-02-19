@@ -31,7 +31,7 @@ driver.get("http://newtours.demoaut.com");
 
 }
 
-
+// code modified after defect fix, push the code to github
 
 @Test
 public void verifyInvalidCredential() throws IOException {

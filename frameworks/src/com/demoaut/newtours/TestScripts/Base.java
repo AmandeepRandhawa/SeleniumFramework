@@ -20,7 +20,7 @@ driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 driver.get("http://newtours.demoaut.com");
 
 }
-
+// adding changes to my base script
 @AfterClass
 public void closeApplication() {
 driver.close();
